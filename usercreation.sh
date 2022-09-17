@@ -1,7 +1,6 @@
 #!/bin/bash
 if [ $# -gt 0 ]; then
-    users=$@
-    for user in {$users[@]}; do
+    for user in $@; do
         echo $user
     done
 else
