@@ -6,6 +6,7 @@ if [ $# -gt 0 ]; then
             echo "user with $user already exits.."
         else
             echo "Lets create user $user"
+            sudo useradd -m $user --shell /bin/bash
         fi
     done
 else
