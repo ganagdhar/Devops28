@@ -5,6 +5,5 @@ if [ $# -gt 0 ]; then
         echo $user
     done
 else
-    echo "Invalid Input"
+    echo "Invalid Input. Please add parameters"
 fi
-
